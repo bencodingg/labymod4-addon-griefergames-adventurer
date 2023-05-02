@@ -1,0 +1,48 @@
+{
+  "griefergames-adventurer": {
+    "settings": {
+      "name": "GrieferGames Adventurer",
+      "enabled": {
+        "name": "Enabled"
+      },
+      "vote": {
+        "name": "Other Vote Message"
+      },
+      "anvil": {
+        "name": "Show Anvil Level"
+      },
+      "price": {
+        "name": "Show the Prices"
+      },
+      "adventurer": {
+        "name": "Click Me to Print the Text"
+      },
+      "subSettings": {
+        "name": "Show Anvil Level",
+        "labyModColor": {
+          "name": "The LabyMod Color"
+        },
+        "keyBind": {
+          "name": "Toggle Anvil Level"
+        }
+      },
+      "adventureSubSettings": {
+        "name": "Mark Adventure Items",
+        "text": {
+          "name": "Text below the items"
+        },
+        "star": {
+          "name": "Activate the star next to the text"
+        }
+      },
+      "header": {
+        "general": {
+          "name": "General"
+        },
+        "adventurer": {
+          "name": "Adventurer"
+        }
+      }
+    }
+  }
+}
