@@ -1,7 +1,6 @@
 package de.benudo.commands;
 
 import de.benudo.AdventureAddon;
-import de.benudo.configuration.AdventureConfiguration;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.client.chat.ChatMessageSendEvent;
 
@@ -14,9 +13,9 @@ public class VoteCommand {
 
       if(event.getMessage().equalsIgnoreCase("/vote")) {
 
-        if (AdventureConfiguration.enabled.get()) {
+        if (AdventureAddon.getInstance().configuration().enabled().get()) {
 
-          if (AdventureConfiguration.vote.get()) {
+          if (AdventureAddon.getInstance().configuration().vote().get()) {
 
             event.setCancelled(true);
             AdventureAddon.getInstance().displayMessage(

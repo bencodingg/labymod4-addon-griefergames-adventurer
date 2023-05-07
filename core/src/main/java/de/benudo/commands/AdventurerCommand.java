@@ -14,16 +14,10 @@ public class AdventurerCommand {
 
       if(event.getMessage().equalsIgnoreCase("/discord") || event.getMessage().equalsIgnoreCase("/adventurer")) {
 
-        if (AdventureConfiguration.enabled.get()) {
+        if (AdventureAddon.getInstance().configuration().enabled().get()) {
 
-            event.setCancelled(true);
-            AdventureAddon.getInstance().displayMessage(
-                "§6Link: §bhttps://minecraft-server.eu/vote/index/1A73C/"
-                    + AdventureAddon.getInstance().labyAPI().getName()
-                    + " \n§fFür das Voten erhälst du §5eine Vote-Kiste§f, welche du am \n§fSpawn einlösen kannst, um §5an hilfreiche Items §fzu kommen! \n§fMit §c/geschenk bekommst du §fdeine Belohnung!"
-                    +
-                    "\n§6Link: §bhttps://minecraft-server.eu/vote/index/1A73C/"
-                    + AdventureAddon.getInstance().labyAPI().getName());
+          event.setCancelled(true);
+          AdventureAddon.getInstance().displayMessage("§8● §2Adventurer-Addon §8┃ §aThank you for using this addon! \n§7Here is our discord§8: §ahttps://dsc.gg/adventurer");
 
           }
 
@@ -34,5 +28,3 @@ public class AdventurerCommand {
     }
 
   }
-
-}

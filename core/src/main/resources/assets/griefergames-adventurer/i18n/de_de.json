@@ -3,44 +3,44 @@
     "settings": {
       "name": "GrieferGames Adventurer",
       "enabled": {
-        "name": "Enabled"
+        "name": "Aktiviert"
       },
       "vote": {
-        "name": "Other Vote Message"
+        "name": "Andere Vote Nachricht"
       },
       "anvil": {
-        "name": "Show Anvil Level"
+        "name": "Zeige Ambosslevel"
       },
       "price": {
-        "name": "Show the Prices"
+        "name": "Zeige die Preise"
       },
       "anvilLevelSubSettings": {
-        "name": "Show Anvil Level",
+        "name": "Zeige Ambosslevel",
         "color": {
-          "name": "Change the Colorr"
+          "name": "Ändere die Farbe"
         }
       },
       "adventureSubSettings": {
-        "name": "Mark Adventure Items",
+        "name": "Markiere Adventure Items",
         "text": {
-          "name": "Text below the items"
+          "name": "Text unter den Items"
         },
         "color": {
-          "name": "Change the Color"
+          "name": "Ändere die Farbe"
         },
         "bold": {
-          "name": "Toggle bold font"
+          "name": "Aktiviere dicke Schrift"
         },
         "cursive": {
-          "name": "Toggle cursive font"
+          "name": "Aktiviere kursive Schrift"
         },
         "star": {
-          "name": "Activate the star next to the text"
+          "name": "Aktiviere den Stern neben dem Text"
         }
       },
       "header": {
         "general": {
-          "name": "General"
+          "name": "Allgemein"
         },
         "adventurer": {
           "name": "Adventurer"
