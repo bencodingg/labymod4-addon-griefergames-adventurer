@@ -149,6 +149,48 @@ public class PriceEvent {
 
           }
 
+          if (itemStackName.equalsIgnoreCase("Quarz Rand")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
+          if (itemStackName.equalsIgnoreCase("Erze Rand")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
+          if (itemStackName.equalsIgnoreCase("Ruinen Rand")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
+          if (itemStackName.equalsIgnoreCase("Eiszapfen Rand")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
+          if (itemStackName.equalsIgnoreCase("Galaxy Rand")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
+          if (itemStackName.equalsIgnoreCase("Graue Erleuchtung")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
+          if (itemStackName.equalsIgnoreCase("Grauer Rand")) {
+
+            event.getTooltipLines().add(PlainTextComponentSerializer.plainText().deserialize("§7Price§8: §e10 Adventure Coins"));
+
+          }
+
         }
 
 

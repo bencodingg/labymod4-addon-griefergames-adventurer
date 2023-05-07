@@ -480,6 +480,13 @@ public class AdventureEvent {
             || itemStackName.equalsIgnoreCase("Mega Adventurer Luckyblock (LuckyBlock)")
             || itemStackName.equalsIgnoreCase("Super Adventurer Luckyblock (LuckyBlock)")
             || itemStackName.equalsIgnoreCase("Ocean Farbe")
+            || itemStackName.equalsIgnoreCase("Quarz Rand")
+            || itemStackName.equalsIgnoreCase("Erze Rand")
+            || itemStackName.equalsIgnoreCase("Ruinen Rand")
+            || itemStackName.equalsIgnoreCase("Eiszapfen Rand")
+            || itemStackName.equalsIgnoreCase("Galaxy Rand")
+            || itemStackName.equalsIgnoreCase("Graue Erleuchtung")
+            || itemStackName.equalsIgnoreCase("Grauer Rand Rand")
             || itemStackName.equalsIgnoreCase("Galaxy Farbe")) {
           if (getRepairCost(itemStack) == 0) {
             event.getTooltipLines()
